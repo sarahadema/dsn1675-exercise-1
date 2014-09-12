@@ -33,12 +33,15 @@ img {
 article {
   margin: 0 auto;
   width: 100%
+
+  border-radius:;
 }
 
 .photo {
   margin:0;
   display: block;
   width: 100%;
+  position:relative;
 }
 
 .photo figcaption{
@@ -49,7 +52,7 @@ article {
   font-size: 1rem;
 
   position: absolute;
-  margin: -5% 0;
+  bottom: 0;
 }
 
 .dinosaur {
