@@ -1,0 +1,92 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+article {
+  margin: 0;
+  width: 100%
+}
+
+.photo {
+  margin:0;
+  display: block;
+  width: 100%;
+}
+
+.photo figcaption{
+  padding: 0.8rem;
+
+  font-family: Georgia, serif;
+  color: white;
+  font-size: 1rem;
+
+  position: absolute;
+  margin: -5% 0;
+}
+
+.dinosaur {
+  margin: 2% 0;
+  padding: 0em;
+
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: black;
+
+}
+
+.info {
+  display: inline-block;
+  overflow: hidden;
+  padding: 0 0.6em 0.1em;
+  border-left: 1.5px solid gray;
+}
+
+.info h2 {
+  font-family: Helvetica, sans-serif;
+  color: gray;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.info p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+
+}
+
+
+
+
+
+
+
+
+
